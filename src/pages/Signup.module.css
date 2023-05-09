@@ -1,0 +1,114 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    /* background-color: rgb(149, 149, 247); */
+    padding: 100px;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 1rem;
+} 
+
+input {
+    border-radius: 5px;
+    padding: 18px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    height: 1rem;
+    width: 18rem;
+    margin-bottom: 1rem;
+}
+
+input::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.errors {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.name, .passwordRow, .dobAndCity, .stateAndZipcode, .cellNumberAndHighestQualification, .usernameAndPermissions {
+    display: flex;
+    flex-direction: row;
+}
+
+.permissionsOptions, .genderOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input[type="radio"] {
+    margin-left: 0px !important;
+    margin-top: 2px !important;
+    margin-right: 0px !important;
+    margin-bottom: 2px !important;
+    width: 5rem;
+}
+/* .usernameAndPermissions {
+    margin-left: 31px; 
+} */
+/* label {
+    padding: 0px !important;
+    margin: 0px !important;
+} */
+
+.permissionsLabel {
+    margin-bottom: 10px;
+}
+
+.permissions {
+    display: flex;
+    flex-direction: column;
+    padding-right:13rem;
+}
+
+.gender {
+    padding-right: 34.5rem;
+}
+
+.customControl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}   
+
+.firstName, .lastName, .password, .confirmPassword, .dob, .city, .state, .zipcode, .cellNumber, .highestQualification, .username {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: flex-start;
+}
+
+button {
+    border-radius: 1rem;
+    padding: 1rem;
+    /* background-color: rgb(88, 164, 183); */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.3);
+    transition: all 0.5s ease-out;
+}
+
+button:active {
+    color: #2784ff;
+    background-color: white;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

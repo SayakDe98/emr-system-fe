@@ -1,0 +1,120 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.topbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(105, 105, 209); */
+    /* color: #1cc7e9; */
+    width: 100%;
+    /* padding: 30px 0rem; */
+    padding: 10px 0rem;
+}
+
+.medical {
+    margin-left: 15px;
+}
+.title {
+    margin-left: 1rem;
+    color: black;
+}
+
+a.title {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+a.signup {
+    text-decoration: none;
+    /* position: absolute; */
+    /* right: 0%; */
+    /* margin-left: auto; */
+    text-transform: capitalize;
+    font-weight: bold;
+    font-weight: bold;
+    /* padding: 2.4rem; */
+    padding: 1.1rem;
+    margin-top: 0px;
+    color: #68758c;
+}
+
+a.signup:hover {
+    /* background-color: #1cc7e9; */
+    /* color: rgb(105, 105, 209) */
+}
+
+a.login {
+    text-decoration: none;
+    /* position: absolute; */
+    /* right: 6%; */
+    /* margin-left: auto; */
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 1.1rem;
+    color: #68758c;
+}
+
+a.login:hover {
+    /* background-color: #1cc7e9; */
+    /* color: rgb(105, 105, 209) */
+}
+
+.topbar a {
+    /* color: #1cc7e9; */
+}
+
+.search {
+/* background-color: rgb(105, 105, 209); */
+/* color: white; */
+border-radius: 0px;
+padding: 0.7rem;
+margin: 0;
+background-color: white;
+border: 0 !important;
+color: #9daecd;
+}
+
+input[type="search"] {
+    margin: 0px; 
+    border: 0!important;   
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1),
+            0 2px 7px 0 rgba(0, 0, 0, 0.1)
+}
+
+input[type="search"]::placeholder {
+    color: #9daecd;
+    font-weight: bolder;
+    text-align: start;
+}
+.searchResults {
+    z-index: 999;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: absolute;
+    width: 291px;
+    margin-left:40px;
+    /* color: #ffffff; */
+    color: #9daecd;
+    max-height: 10rem;
+    border-radius: 5px;
+    font-weight: bold;
+    /* background-color: #2784ff; */
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1), 
+             0 2px 7px 0 rgba(0, 0, 0, 0.1)
+}
+
+.searchResults ul {
+    padding: 0;
+    margin: 0;
+}
+
+a.login span {
+    font-size:medium;
+    font-weight: light;
+    color: #9daecd !important;
+}
+
+#bell:hover{
+    background-color:red;
+}

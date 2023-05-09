@@ -1,0 +1,60 @@
+.bpCard {
+    /* background-color: rgb(149, 149, 247); */
+    padding: 2rem;
+    /* margin-top: 18.5%; */
+    /* margin-bottom: 1.5%; */
+    /* margin-right: 50%;
+    margin-left: 15%; */
+    position: absolute;
+    top: 40rem;
+    left: 20rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1),
+        0 2px 7px 0 rgba(0, 0, 0, 0.1)
+}
+
+.rpCard {
+    /* background-color: rgb(149, 149, 247); */
+    padding: 2rem;
+    padding-bottom: 3.2rem;
+    /* margin-top: 18.5%; */
+    /* margin-bottom: 1.5%; */
+    /* margin-right: 50%;
+    margin-left: 15%; */
+    position: absolute;
+    top: 40rem;
+    left: 55rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1),
+        0 2px 7px 0 rgba(0, 0, 0, 0.1)
+}
+
+.encounterCard {
+    padding: 2rem;
+        padding-bottom: 3.2rem;
+        /* margin-top: 18.5%; */
+        /* margin-bottom: 1.5%; */
+        /* margin-right: 50%;
+        margin-left: 15%; */
+        position: absolute;
+        top: 7.5rem;
+        left: 20rem;
+        border-radius: 1rem;
+        box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1),
+            0 2px 7px 0 rgba(0, 0, 0, 0.1)
+}
+
+.historyCard {
+    padding: 2rem;
+        padding-bottom: 3.2rem;
+        /* margin-top: 18.5%; */
+        /* margin-bottom: 1.5%; */
+        /* margin-right: 50%;
+            margin-left: 15%; */
+        position: absolute;
+        top: 7.5rem;
+        left: 55rem;
+        border-radius: 1rem;
+        box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1),
+            0 2px 7px 0 rgba(0, 0, 0, 0.1)
+}

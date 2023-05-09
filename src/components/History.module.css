@@ -1,0 +1,51 @@
+.history {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #55637e;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading span {
+    font-size: 17pt;
+    font-weight: bolder;
+    color: #5a6882;
+}
+
+.heading p {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(68px, auto);
+    grid-gap: 10px;
+}
+
+.alcohol {
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tobacco, .drugs {
+    display: flex;
+        flex-direction: column;
+        gap: 5px;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+

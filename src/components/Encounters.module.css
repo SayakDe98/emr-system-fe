@@ -1,0 +1,42 @@
+.encounter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #55637e;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 150px; */
+}
+.heading span {
+    font-size: 17pt;
+    font-weight: bolder;
+    color: #5a6882;
+}
+
+.heading p {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.note input[type="text"] {
+    border: 0px !important;
+}

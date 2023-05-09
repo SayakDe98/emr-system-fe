@@ -1,0 +1,51 @@
+.res {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #55637e;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 150px; */
+}
+
+.heading span {
+    font-size: 17pt;
+    font-weight: bolder;
+    color: #5a6882;
+}
+
+.heading p {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.identities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.identity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.data p {
+    font-weight: bold;
+}

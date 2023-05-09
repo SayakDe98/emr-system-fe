@@ -1,0 +1,40 @@
+.header {
+    /* color: #ffffff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.header h4 {
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    color: black
+}
+
+.header h2 {
+    text-transform: capitalize;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* color: #ffffff; */
+    padding: 50px;
+}
+
+.permissions {
+    /* background-color: rgb(98, 239, 239); */
+    padding:5px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

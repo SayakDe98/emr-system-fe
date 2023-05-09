@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Vina+Sans&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1 {
+    /* color: #129cb8; */
+}
+
+img {
+    width: 120%;
+    height: 120%;
+}
+
+
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.welcome p {
+    padding: 1%;
+}
+
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.featuretext ul {
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 1%;
+}

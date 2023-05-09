@@ -1,0 +1,31 @@
+.username, .password {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: flex-start;
+    /* color: #ffffff; */
+}
+
+.errors {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.navigateSignup {
+    font-size: small;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    /* color: #ffffff; */
+}
+
+.navigateSignupButton {
+    text-decoration: none;
+    /* color: rgb(28, 231, 123); */
+    font-weight: bold;
+    color: #2784ff;
+}
